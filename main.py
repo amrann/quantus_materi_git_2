@@ -1,4 +1,5 @@
 import luas
+import volume
 
 def test_luas_prisma_segitiga():
     luas_prismasegitiga = luas.PrismaSegitiga()
