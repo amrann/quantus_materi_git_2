@@ -13,6 +13,5 @@ def test_volume_prisma_segitiga():
 
 def coba():
     print("sdada")
-    print ("sdad")
 
 test_luas_prisma_segitiga()
