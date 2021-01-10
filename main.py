@@ -1,9 +1,9 @@
 import luas
 
 
-def test_luas_segitiga():
-    result = luas.LuasSegititiga()
-    assert result.hitung(10,5)==25 , 'perhitungan salah'
-    assert result.hitung(10,-5)==25 , 'input salah'
+def test_luas_prisma_segitiga():
+    luas_prismasegitiga = luas.PrismaSegitiga()
+    hasil = luas_prismasegitiga.hitung(6, 7, 5, 3, 4)
+    print ("Luas Prisma Segitiga = ", hasil)
 
-test_luas_segitiga()
+test_luas_prisma_segitiga()
