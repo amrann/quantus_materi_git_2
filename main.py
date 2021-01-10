@@ -11,7 +11,5 @@ def test_volume_prisma_segitiga():
     hasil = volume_prismasegitiga.hitung(6, 7)
     print("Volume Prisma Segitiga = ", hasil)
 
-def coba():
-    print("sdada")
-
 test_luas_prisma_segitiga()
+test_volume_prisma_segitiga()
